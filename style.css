@@ -1,0 +1,851 @@
+/*navbar*/
+body{
+    background-color: #0c0e0f;
+}
+#AdminBody{
+    background-color: white;
+}
+.navbar-brand img {
+    height: 5vw;
+    margin-top: 0.5vw;
+    margin-bottom: 0.5vw;
+}
+
+.navbar {
+    background-color: #1c1f23;
+}
+
+
+.navbar a {
+    color: #E1E4EA;
+    font-family: 'Montserrat';
+    font-weight: 500;
+    font-size: 4vw;
+}
+
+.nav-item {
+    padding-left: 1vw;
+    padding-right: 1vw;
+}
+
+.nav-item:hover {
+    background-color: rgba(255, 255, 255, 0.15);
+    color: #ffffff;
+}
+
+/*footer*/
+
+footer {
+    clear: both;
+    width: 100%;
+    margin: 0;
+    background-color: #000000;
+    color: white;
+    font-family: 'Montserrat';
+    font-weight: bold;
+    bottom: 0;
+    padding: 0.7vw;
+    padding-top: 3vw;
+    font-size: 2vw;
+    bottom: 0;
+}
+
+footer p {
+    padding: 0;
+    margin: 0;
+}
+
+/*index*/
+
+.carousel-inner img {
+    width: 100%;
+    height: 100%;
+}
+
+#tresspass {
+    top: 10vw;
+    left: 2vw;
+    position: absolute;
+    z-index: 1;
+    color: rgba(235, 235, 235, 0.95);
+    margin: 0;
+    padding: 0;
+    font-size: 6vw;
+    font-family: 'Pacifico';
+    font-weight: 900;
+    text-shadow: 4px 4px rgba(0, 0, 0, 0.4);
+}
+
+#tresspass button {
+    border-radius: 45%;
+    padding: 1vw;
+}
+
+.contentIndex0 {
+    display: grid;
+    grid-gap: 1em;
+    grid-template-columns: 0.1fr 0.2fr 0.2fr 0.2fr 0.2fr 0.1fr;
+    grid-auto-rows: minmax(10vw, auto);
+    background-color: #0c0e0f;
+    padding-bottom: 5vw;
+    border-bottom: 0.5vw dotted white;
+}
+
+.cover {
+    grid-column: 3/6;
+    grid-row: 2/3;
+}
+
+.intro {
+    grid-column: 2/4;
+    grid-row: 1/2;
+    text-align: left;
+    padding-top: 3vw;
+    font-family: 'Montserrat';
+    font-weight: bold;
+    font-size: 5vw;
+    color: rgba(235, 235, 235, 0.95);
+}
+
+.climax {
+    color: white;
+    text-align: left;
+    font-family: 'Pacifico';
+    font-size: 15vw;
+}
+
+.description {
+    grid-column: 2/5;
+    grid-row: 3/4;
+    text-align: left;
+    border-radius: 2vw 2vw 2vw 2vw;
+    border: 0.5vw solid white;
+    font-family: 'Montserrat';
+    font-size: 3vw;
+    color: white;
+    padding: 1vw;
+}
+
+.contentIndex1 {
+    background-color: #0c0e0f;
+    display: grid;
+    grid-gap: 1em;
+    grid-template-columns: 0.2fr 0.05fr 0.5fr 0.05fr 0.5fr 0.05fr 0.5fr 0.05fr 0.2fr;
+    grid-auto-rows: minmax(10vw, auto);
+    padding-top: 5vw;
+    padding-bottom: 5vw;
+}
+
+.instructiontitle {
+    grid-column: 3/8;
+    grid-row: 1/3;
+    text-align: center;
+    align-items: center;
+    align-self: center;
+    color: white;
+    font-family: 'Pacifico';
+    font-size: 10vw;
+    border-bottom: 1vw solid white;
+}
+
+.instructionone {
+    text-align: center;
+    box-shadow: 0.5vw 0.5vw 0.5vw 0.5vw;
+    grid-column: 2/5;
+    grid-row: 4/7;
+    background-color: white;
+}
+
+.instructiontwo {
+    text-align: center;
+    box-shadow: 0.5vw 0.5vw 0.5vw 0.5vw;
+    grid-column: 4/7;
+    grid-row: 5/8;
+    background-color: white;
+}
+
+.instructionthree {
+    text-align: center;
+    box-shadow: 0.5vw 0.5vw 0.5vw 0.5vw;
+    grid-column: 6/9;
+    grid-row: 6/9;
+    background-color: white;
+}
+
+.titleStep {
+    font-family: 'Pacifico';
+    font-weight: bold;
+    font-size: 4vw;
+    color: white;
+    margin-top: 2vw;
+    margin-left: 2vw;
+    border-radius: 50%;
+    width: 20%;
+    background-color: black;
+}
+
+.fillerStep {
+    font-family: 'Pacifico';
+    font-weight: bold;
+    font-size: 5vw;
+    padding: 1vw;
+    padding-top: 2vw;
+}
+
+.contentIndex1 img {
+    width: 30%;
+    height: auto;
+    margin-bottom: 3vw;
+}
+
+.contentIndex2 {
+    background-color: #0c0e0f;
+    display: grid;
+    grid-gap: 1em;
+    grid-template-columns: 0.5fr 0.5fr;
+    grid-auto-rows: minmax(20vw, auto);
+    padding-top: 5vw;
+    padding-bottom: 5vw;
+}
+
+.contentIndex2 .about {
+    grid-column: 1/2;
+    grid-row: 1/2;
+    background-image: url(graphics/warehouse.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    font-family: 'Montserrat';
+    font-size: 5vw;
+    color: black;
+}
+
+.contentIndex2 .catalog {
+    grid-column: 2/3;
+    grid-row: 1/2;
+    background-image: url(advertise/BlueShowcase.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    font-family: 'Montserrat';
+    font-size: 5vw;
+    color: black;
+}
+.contentIndex2 p{
+    padding: 2vw;
+
+}
+/*About*/
+.contentAbout0{
+    width: 100%;
+    background-color: #0c0e0f;
+    padding: 5vw;
+    padding-bottom: 2vw;
+    border-bottom: 0.5vw dashed white;
+    text-align: center;
+
+}
+.contentAbout0 video{
+    width: 100%;
+    height: auto;
+    border: 1vw solid rgba(235, 235, 235, 0.85);
+    border-radius: 1%;
+}
+.videoTitle{
+    font-family: 'Pacifico';
+    font-size: 8vw;
+    padding-top: 2vw;
+    color: white;
+}
+
+.contentAbout1{
+    background-color: #0c0e0f;
+    display: grid;
+    grid-gap: 1em;
+    grid-template-columns: 0.2fr 0.2fr  0.2fr 0.2fr  0.2fr 0.2fr  0.2fr 0.2fr;
+    grid-auto-rows: minmax(10vw, auto);
+    padding-top: 5vw;
+    padding-bottom: 5vw;
+}
+
+.contentAbout1 .display1{
+    background-image: url(advertise/BlueShowcase.jpg);
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: cover;    
+    grid-column: 6/9;
+    grid-row: 1/4;
+    border: 1vw solid rgba(235, 235, 235, 0.85);
+
+}
+.contentAbout1 .display2{
+    background-image: url(advertise/cinemtatic.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;    
+    background-color: black;
+    grid-column: 5/8;
+    grid-row: 3/7;
+    border: 1vw solid rgba(235, 235, 235, 0.85);
+
+}
+.contentAbout1 .text1{
+    grid-column: 2/6;
+    grid-row: 1/3;
+    font-family: 'Pacifico';
+    font-size: 6vw;
+    color: white;
+    font-weight: 900;
+}
+.contentAbout1 .text2{
+    grid-column: 2/5;
+    grid-row: 3/7;
+    font-family: 'Montserrat';
+    font-size: 3vw;
+    padding:1.5vw;
+    text-align: left;
+    color: black;
+    padding-top: 4vw;
+   background-color: white;
+
+}
+.contentAbout2{
+    display: grid;
+    grid-gap: 1em;
+    grid-template-columns: 0.5fr 1fr 0.25fr 0.5fr 1fr 1fr 0.5fr 0.25fr 1fr 0.5fr;
+    grid-auto-rows: minmax(5vw, auto);
+    padding-top: 10vw;
+    background-color: #0c0e0f;
+    padding-bottom: 4vw;
+}
+
+.contentAbout2 .background{
+    background-color: #1c1f23;
+    grid-column: 3/10;
+    grid-row: 2/6;
+}
+
+.contentAbout2 .image {
+    background-image: url(advertise/msg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    grid-column: 2/5;
+    grid-row: 1/6;
+    border: 1vw solid rgba(235, 235, 235, 0.85);
+
+}
+.contentAbout2 .LeaveMsg{
+    grid-column: 5/10;
+    grid-row: 1/2;
+    font-size: 7.5vw;
+    color: white;
+    font-family: 'Pacifico';
+
+}
+.contentAbout2 .emailForm {
+    grid-column: 5/10;
+    grid-row: 2/6;
+    padding:1vw;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 1vw;
+    color: #fff;
+}
+
+.contentAbout2 .emailForm  p {
+    margin: 0;
+    font-size: 2.5vw;
+}
+
+.contentAbout2 .emailForm  .input {
+    width: 90%;
+    padding: 0.3vw;
+    border-radius: 0.5vw;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 2.5vw;
+}
+
+.contentAbout2 .emailForm .submit {
+    margin: 0.3vw;
+    border-radius: 0.5vw;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 1vw;
+    background-color: #fff;
+    color: #fff;
+}
+.contentAbout2 .emailForm .Submit img{
+    height: 3vw;
+    width: auto;
+}
+#submit:hover {
+    opacity: 0.85;
+}
+
+/*catalog*/
+.contentCatalog0{
+    font-size: 10vw;
+    color: white;
+    font-family: 'Pacifico';
+    background-color: #0c0e0f;
+    text-align: center;
+    padding: 2vw;
+    border-bottom: 1vw white dotted;
+    border-radius: 0 0 25% 25%;
+}
+
+.contentCatalog0 .note{
+    font-size: 2vw;
+    font-family: 'Montserrat';
+    clear: both;
+}
+
+.innerproduct{
+    background-color: white;
+    border-radius: 5%;
+    border: 1vw ridge  rgb(71, 71, 71);
+}
+
+.product{
+    float:left;
+}
+.itembox{
+    padding: 4vw;
+    float:left;
+    padding-left: 7vw;
+}
+.item{
+    text-align: center;
+}
+.item img{
+    width: 30vw;
+    height: auto;
+}
+.item button{
+    text-decoration: none;
+    border: none;
+}
+.showcase{
+    width: 100%;
+}
+.tag{
+    color: black;
+    font-family: 'Montserrat';
+    font-weight: bold;
+    font-size: 2vw;
+}
+
+
+/*CART*/
+.contentCart0{
+    background-color: #0c0e0f;
+}
+.contentCart0 h2{
+    font-size: 5vw;
+    color: white;
+    font-family: 'Pacifico';
+    margin: 0;
+    padding: 1vw;
+}
+.contentCart0 .order{
+    width: 100%;
+    display: grid;
+    grid-gap: 1em;
+    grid-template-columns: 0.2fr 0.8fr 0.2fr;
+    grid-auto-rows: minmax(1vw, auto);
+    background-color: #1e2224;
+    color: white;
+    padding: 2vw;
+    border: 0.5vw solid #0c0e0f;
+
+}
+.contentCart0 .order .orderpic{
+    border: 1vw ridge  rgb(71, 71, 71);
+    grid-column: 1/2;
+    grid-row: 1/4;
+    width: 23vw;
+    height: auto;
+}
+.contentCart0 .order .orderText1{
+    grid-column: 2/3;
+    grid-row: 1/2;
+    font-family: 'Montserrat';
+    font-weight: bold;
+    font-size: 4vw;
+    border-bottom: double white 1vw;
+}
+.contentCart0 .order .orderText2{
+    grid-column: 2/3;
+    grid-row: 2/3;
+    font-family: 'Montserrat';
+    font-size: 3vw;
+}
+.contentCart0 .order .orderText3{
+    grid-column: 2/3;
+    grid-row: 3/4;
+    font-family: 'Montserrat';
+    font-size: 3vw;
+}
+.contentCart0 .order .orderButton{
+    grid-column: 3/4;
+    grid-row: 1/4;
+    padding: 3vw;
+}
+.contentCart0 .order button{
+
+    border-radius: 5%;
+    padding: 1vw;
+    border: none;
+}
+.contentCart0 .order button img{
+    height: 6vw;
+    width: auto;
+}
+.sendOrder{
+    background-color: #0c0e0f;
+    padding: 2vw;
+
+}
+
+.sendOrder label{
+    font-size: 2.5vw;
+    color: white;
+    font-family: 'Montserrat';
+    
+} 
+.sendOrder input {
+    width: 100%;
+    background-color: #1e2224;
+}
+.sendOrder button{
+    width: 100%;
+    border-radius: 5%;
+    padding: 1vw;
+    border: none;
+    font-family: 'Pacifico';
+    font-size: 5vw;
+    background-color: white;
+}
+
+/*LOGIN*/
+#login{
+    background-color: #0c0e0f;
+}
+.LoginContent{
+    display: inline-block;
+    padding-top: 0vw;
+    margin-top: 5vw;
+    font-size: 2vw;
+    font-family: 'Montserrat';
+    color: white;
+    margin-left: 10%;
+    padding-bottom: 5vw;
+}
+.LoginContent input{
+    width: 75%;
+    margin:0 auto;
+    text-align: center;
+    display: inline;
+    font-weight: bold;
+
+}
+.LoginContent h1{
+    font-size: 15vw;
+    font-family: 'Pacifico';
+}
+
+.ordertable{
+    width: 100%;
+    background-color: white;
+}
+.ordertable td{
+    padding:5px;
+}
+/*extra*/
+
+.empty{
+    text-align: center;
+    margin: 0;
+    padding-top: 3vw;
+}
+.empty p{
+    font-family: 'Pacifico';
+    font-size: 15vw;
+    color: white   ;
+}
+#AdminBody .empty p{
+    font-family: 'Pacifico';
+    font-size: 15vw;
+    color: black   ;
+}
+.empty button{
+    padding: 1vw;
+    border: none;
+    font-family: 'Montserrat';
+    font-weight: bold;
+    font-size: 5vw;
+    background-color: white;
+    border-radius: 2vw;
+}
+#AdminBody .empty button{
+    padding: 1vw;
+    border: none;
+    font-family: 'Montserrat';
+    font-weight: bold;
+    font-size: 5vw;
+    color: white;
+    background-color: black;
+    border-radius: 2vw;
+}
+.flip {
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+}
+
+/*admin & catalog*/
+
+.whiteShade{
+    background-color: white;
+}
+.whiteShade:hover{
+    background-color: rgba(235, 235, 235, 0.55);
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.botbor{
+    padding-bottom: 1vw;
+    border-bottom: 1vw dashed black;
+}
+.adminText{
+    font-size: 2vw;
+    font-weight: bold;
+}
+.AdminOrder img{
+    width: 20vw;
+}
+.adminbox{
+    text-align: center;
+}
+.adminbox img{
+    width: 10vw;
+    height: auto;
+}
+/* Full-width input fields */
+
+input[type=text], input[type=number], textarea {
+    width: 77%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+/* Set a style for all buttons */
+
+.Subutton {
+    background-color: #1c1f23;
+    color: white;
+    padding: 1vw;
+    margin: 1vw;
+    border: none;
+    cursor: pointer;
+    width: 36%;
+    float: left;
+}
+
+.danger {
+    background-color: red;
+}
+
+label {
+    float: left;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+/* Extra styles for the cancel button */
+
+.cancelbtn {
+    width: auto;
+    padding: 10px 18px;
+    background-color: #f44336;
+}
+
+/* Center the image and position the close button */
+
+.imgcontainer {
+    text-align: center;
+    margin: 24px 0 12px 0;
+    padding: 3vw;
+    position: relative;
+}
+
+img.avatar {
+    width: 40%;
+    height: auto;
+}
+
+.container {
+    padding: 16px;
+    width: 100%;
+    font-size: 4vw;
+}
+
+span.psw {
+    float: right;
+    padding-top: 16px;
+}
+
+/* The Modal (background) */
+
+.modal {
+    display: none;
+    /* Hidden by default */
+    position: fixed;
+    /* Stay in place */
+    z-index: 1;
+    /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%;
+    /* Full width */
+    height: 100%;
+    /* Full height */
+    overflow: auto;
+    /* Enable scroll if needed */
+    background-color: rgb(0, 0, 0);
+    /* Fallback color */
+    background-color: rgba(0, 0, 0, 0.4);
+    /* Black w/ opacity */
+    padding-top: 60px;
+
+}
+
+/* Modal Content/Box */
+
+.modal-content {
+    background-color: #fefefe;
+    margin: 5% auto 15% auto;
+    /* 5% from the top, 15% from the bottom and centered */
+    border: 1px solid #888;
+    width: 90%;
+    /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button (x) */
+
+.close {
+    position: absolute;
+    right: 25px;
+    top: 0;
+    color: #000;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.close:hover, .close:focus {
+    color: red;
+    cursor: pointer;
+}
+
+/* Add Zoom Animation */
+
+.animate {
+    -webkit-animation: animatezoom 0.6s;
+    animation: animatezoom 0.6s
+}
+
+/* scroll */
+
+* {
+    box-sizing: border-box;
+}
+
+/* The grid: Four equal columns that floats next to each other */
+
+.column {
+    float: left;
+    width: 23%;
+    padding: 10px;
+}
+
+.row {
+    text-align: center;
+    padding-left: 20%;
+    align-items: center;
+}
+
+/* Style the images inside the grid */
+
+.column img {
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+.column img:hover {
+    opacity: 1;
+}
+
+/* Clear floats after the columns */
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* The expanding image container */
+
+.containerNav {
+    position: relative;
+}
+
+/* Expanding image text */
+
+#imgtext {
+    position: absolute;
+    bottom: 15px;
+    left: 15px;
+    color: white;
+    font-size: 20px;
+}
+
+@-webkit-keyframes animatezoom {
+    from {
+        -webkit-transform: scale(0)
+    }
+    to {
+        -webkit-transform: scale(1)
+    }
+}
+
+@keyframes animatezoom {
+    from {
+        transform: scale(0)
+    }
+    to {
+        transform: scale(1)
+    }
+}
+
+/* Change styles for span and cancel button on extra small screens */
+
+@media screen and (max-width: 300px) {
+    span.psw {
+        display: block;
+        float: none;
+    }
+    .cancelbtn {
+        width: 50%;
+    }
+}
